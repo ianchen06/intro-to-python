@@ -1,0 +1,5 @@
+- Python
+  - Anaconda
+  - Google Colab
+- Command Line and Terminal
+- Git

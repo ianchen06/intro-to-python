@@ -1,3 +1,30 @@
-site_name: TECHIN 509
+site_name: Introduction to Python
+nav:
+  - 'Preparation':
+    - 'Installation': './preparation/installation.md'
+  - 'Basic Python':
+    - 'Primitives': './basic-python/primitives.md'
+    # - 'Variables': './basic-python/variables.md'
+    # - 'Data Types': './basics/data_types.md'
+    # - 'Operators': './basics/operators.md'
+    # - 'Control Flow': './basics/control_flow.md'
+    # - 'Functions': './basics/functions.md'
+    # - 'Classes': './basics/classes.md'
+    # - 'Modules': './basics/modules.md'
+    # - 'Packages': './basics/packages.md'
+    # - 'Errors': './basics/errors.md'
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: indigo
+copyright: Copyright &copy; 2023 Ian Chen
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
