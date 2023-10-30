@@ -4,6 +4,9 @@ nav:
     - 'Installation': './preparation/installation.md'
   - 'Basic Python':
     - 'Primitives': './basic-python/primitives.md'
+  - 'Command Line and Git':
+    - 'Command Line': './command-line-and-git/command-line.md'
+    - 'Git': './command-line-and-git/git.md'
     # - 'Variables': './basic-python/variables.md'
     # - 'Data Types': './basics/data_types.md'
     # - 'Operators': './basics/operators.md'
@@ -28,3 +31,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
