@@ -46,7 +46,19 @@ my_variable = 1
 
 #### Numbers
 
+```python
+1 # this is an integer (int)
+1.1 # this is a floating point number (float)
+```
+
 #### Strings
+
+```python
+"this is a string"
+
+'this is also a string'
+```
+
 
 #### Booleans
 
