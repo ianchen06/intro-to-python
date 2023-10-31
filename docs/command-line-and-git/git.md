@@ -2,7 +2,13 @@
 
 This section will introduce you to Git, a version control system that allows you to track changes to files over time. It is a distributed version control system, which means that it stores a full copy of the repository on each developer's computer. This allows developers to work on the same project simultaneously without needing to be connected to a central server.
 
-## 
+## Important Concepts
+
+- Git is only used for text files, not binary files.
+- Review the files before committing them to the repository.
+  - Don't include any sensitive information in the repository.
+  - Don't include any large files in the repository. (e.g., images, videos, etc.)
+- When you are not sure about the outcome of a git command, copy the repository to a different location and experiment with it there.
 
 ## Common Git Commands
 
