@@ -7,6 +7,8 @@ nav:
   - 'Command Line and Git':
     - 'Command Line': './command-line-and-git/command-line.md'
     - 'Git': './command-line-and-git/git.md'
+  - 'Intermediate Python':
+    - 'Clean and Pythonic Code': './intermediate-python/clean-code.md'
     # - 'Variables': './basic-python/variables.md'
     # - 'Data Types': './basics/data_types.md'
     # - 'Operators': './basics/operators.md'
