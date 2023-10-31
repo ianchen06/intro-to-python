@@ -6,6 +6,7 @@ nav:
     - 'Primitives': './basic-python/primitives.md'
     - 'Projects':
       - 'Data Processing': './basic-python/projects/data-processing.md'
+      - 'Tic Tac Toe Game': './basic-python/projects/tic-tac-toe.md'
   - 'Command Line and Git':
     - 'Command Line': './command-line-and-git/command-line.md'
     - 'Git': './command-line-and-git/git.md'
