@@ -44,8 +44,16 @@ A queue is a data structure that stores items in the order in which they were ad
 
 ### Gevent
 
-Gevent is a coroutine-based Python networking library that uses greenlet to provide a high-level synchronous API on top of the libev or libuv event loop. This is a way to structure a program by breaking it into pieces that can be executed independently of each other. Concurrency is about dealing with lots of things at once. Parallelism is about doing lots of things at once.
+[Gevent](https://www.gevent.org/) is a coroutine-based Python networking library that uses greenlet to provide a high-level synchronous API on top of the libev or libuv event loop. This is a way to structure a program by breaking it into pieces that can be executed independently of each other. Concurrency is about dealing with lots of things at once. Parallelism is about doing lots of things at once.
 
 #### References
 
 - https://news.ycombinator.com/item?id=37226360
+- https://doordash.engineering/2021/01/19/scaling-efficienc-of-a-python-service-with-gevent/
+- https://www.bitecode.dev/p/asyncio-twisted-tornado-gevent-walk
+- https://engineering.mixpanel.com/gevent-the-good-the-bad-the-ugly-ab61896d512c
+- https://news.ycombinator.com/item?id=28881408
+- https://news.ycombinator.com/item?id=22907635
+- https://sdiehl.github.io/gevent-tutorial/
+- https://eng.lyft.com/gevent-part-3-performance-e64303fa102b
+- https://medium.com/@Pinterest_Engineering/how-we-use-gevent-to-go-fast-e30fa9f81334
