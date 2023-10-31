@@ -132,4 +132,99 @@ except ZeroDivisionError:
     print(result)
     ```
 
-By practicing writing clean and Pythonic code, you will become a more proficient Python developer and contribute to the Python community's culture of readability and elegance.
+### Advanced Exercises
+
+1. **Naming Conventions**
+Rewrite the following code with proper variable and function names according to Python naming conventions.
+
+    ```python
+    def f(x1, x2, x3):
+        return (x1 + x2) * x3
+    ```
+
+2. **String Formatting**
+Use f-strings to make the following code more Pythonic.
+
+    ```python
+    name = "John"
+    age = 25
+    print("Hello, my name is " + name + " and I am " + str(age) + " years old.")
+    ```
+
+3. **Function Arguments**
+Refactor this function to use default arguments.
+
+    ```python
+    def greet(name, greeting):
+        print(greeting + ", " + name + "!")
+    ```
+
+4. **DRY Principle**
+The code below repeats itself. Refactor it to adhere to the DRY (Don't Repeat Yourself) principle.
+
+    ```python
+    print("Welcome to the Python course!")
+    print("Welcome to the Java course!")
+    print("Welcome to the C++ course!")
+    ```
+
+5. **Enumerate Function**
+Use enumerate to rewrite the following loop that prints out both the index and the value of each item in the list.
+
+    ```python
+    fruits = ['apple', 'banana', 'cherry']
+    i = 0
+    for fruit in fruits:
+        print(i, fruit)
+        i += 1
+    ```
+
+6. **Dictionary Get Method**
+The code below can throw a KeyError. Use the get method of dictionaries to make it more robust.
+
+    ```python
+    ages = {'Jim': 30, 'Pam': 28}
+    person = 'Michael'
+    print(ages[person])
+    ```
+
+7. **Comprehensions with Conditions**
+Convert the following code into a dictionary comprehension with a condition.
+
+    ```python
+    old_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+    new_dict = {}
+    for key, value in old_dict.items():
+        if value > 2:
+            new_dict[key] = value
+    ```
+
+8. **Lambda Functions**
+Replace the def defined function below with a lambda function.
+
+    ```python
+    def add(a, b):
+        return a + b
+    ```
+
+9. **Unpacking Sequences**
+Use unpacking to make the following code cleaner.
+
+    ```python
+    data = ('John Doe', 50, 'Python Developer')
+    name = data[0]
+    age = data[1]
+    profession = data[2]
+    ```
+
+10. **Context Managers**
+Use a context manager to make the following file-reading code more Pythonic.
+
+    ```python
+    file = open('hello.txt', 'r')
+    content = file.read()
+    file.close()
+    print(content)
+    ```
+
+These exercises are designed to reinforce various aspects of clean and Pythonic coding practices. As you work through them, try to internalize the principles that each exercise teaches. This will help you write more readable, efficient, and Pythonic code in the future.
