@@ -9,6 +9,9 @@ nav:
     - 'Git': './command-line-and-git/git.md'
   - 'Intermediate Python':
     - 'Clean and Pythonic Code': './intermediate-python/clean-code.md'
+  - 'Advanced Python':
+    - 'Concurrency': './advanced-python/concurrency.md'
+
     # - 'Variables': './basic-python/variables.md'
     # - 'Data Types': './basics/data_types.md'
     # - 'Operators': './basics/operators.md'
