@@ -44,6 +44,58 @@ Player 2's turn. Choose your position (row, column): 2,1
 - Player 2 wins with a diagonal from top left to bottom right.
 - The game is a draw when all spaces are filled without a winner.
 
+### Starter Code
+
+```python
+def print_board(board):
+    print("     0   1   2")
+    print("   -------------")
+    for i, row in enumerate(board):
+        print(f"{i} | {' | '.join(row)} |")
+        print("   -------------")
+
+def player_input(player):
+    valid = False
+    while not valid:
+        try:
+            row, col = map(int, input(f"Player {player}'s turn. Choose your position (row, column): ").split(','))
+            if row in range(3) and col in range(3) and board[row][col] == ' ':
+                valid = True
+            else:
+                print("Invalid move. Try again.")
+        except:
+            print("Invalid input. Try again.")
+    return row, col
+
+def check_win(board, player):
+    # TODO: Implement the logic to check if a player has won
+    pass
+
+def check_tie(board):
+    # TODO: Implement the logic to check if the game is a tie
+    pass
+
+def tic_tac_toe_game():
+    # Initialize the board
+    board = [[' ' for _ in range(3)] for _ in range(3)]
+    current_player = 'X'
+
+    # Main game loop
+    while True:
+        print_board(board)
+        row, col = player_input(current_player)
+        board[row][col] = current_player
+
+        # TODO: Check if the current player has won
+        # TODO: Check if the game is a tie
+        
+        # TODO: Switch turns between players
+
+# Start the game
+tic_tac_toe_game()
+
+```
+
 ### Sample Data:
 
 Use this sample data to test your game. It represents a game state where Player 1 (X) has just won with a vertical line:
