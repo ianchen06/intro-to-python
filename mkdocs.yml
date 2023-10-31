@@ -4,6 +4,8 @@ nav:
     - 'Installation': './preparation/installation.md'
   - 'Basic Python':
     - 'Primitives': './basic-python/primitives.md'
+    - 'Projects':
+      - 'Data Processing': './basic-python/projects/data-processing.md'
   - 'Command Line and Git':
     - 'Command Line': './command-line-and-git/command-line.md'
     - 'Git': './command-line-and-git/git.md'
