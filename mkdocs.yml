@@ -3,6 +3,8 @@ nav:
   - 'Preparation':
     - 'Installation': './preparation/installation.md'
   - 'Basic Python':
+    - 'Introduction': './basic-python/introduction.md'
+    - 'Write and Run Python Code': './basic-python/write-and-run-python-code.md'
     - 'Primitives': './basic-python/primitives.md'
     - 'Projects':
       - 'Data Processing': './basic-python/projects/data-processing.md'
@@ -27,6 +29,8 @@ nav:
     # - 'Errors': './basics/errors.md'
 theme:
   name: material
+  features:
+    - content.tabs.link
   palette:
     scheme: slate
     primary: indigo

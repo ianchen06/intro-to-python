@@ -1,8 +1,12 @@
-## Editor
+## Interactive Python Notebook
+
+- [Google Colab](https://colab.research.google.com)
+
+## Text Editor
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 
-## Python
+## Terminal
 
 === "MacOS"
 
@@ -10,6 +14,15 @@
         - [iTerm2](https://iterm2.com/)
     - Open iTerm2 Terminal
         - `Command + Space` and type `iterm`
+
+=== "Windows"
+
+    - Please refer to [Git installation instructions](#git-windows) below
+
+## Python
+
+=== "MacOS"
+
     - Install [Homebrew](https://brew.sh/) by running the following command in the Terminal
         ```bash
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -27,23 +40,23 @@
 
     - Install Anaconda
         - [Anaconda](https://www.anaconda.com/products/individual)
-    - Install [Git Bash](https://git-scm.com/downloads)
-
 
 ## Git
 
 === "MacOS"
 
-    - Install [Git](https://git-scm.com/download/mac)
+    - Git should be installed if you were able to install Homebrew from the previous step
     - You can test your Git installation by running the following command in the Terminal
         ```bash
         git --version
         ```
 
 === "Windows"
+    <a name="git-windows"></a>
 
     - Install Git by following the instructions in the following link
         - [Installing Git Command Line - UW CSE154](https://courses.cs.washington.edu/courses/cse154/21su/resources/assets/vscode-git-tutorial/windows/index.html#installinggitcommandline)
+
     - Configure VSCode Terminal to use Git Bash by following the instructions in the following link
         - [Configuring VSCode to use Git Bash - UW CSE154](https://courses.cs.washington.edu/courses/cse154/21su/resources/assets/vscode-git-tutorial/windows/index.html#installandsetupvscode)
         - In the future, you can open Git Bash by pressing `Ctrl + Shift + ~`
@@ -56,10 +69,3 @@
         ```bash
         git --version
         ```
-
-
-- Python
-  - Anaconda
-  - Google Colab
-- Command Line and Terminal
-- Git
