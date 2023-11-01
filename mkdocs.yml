@@ -48,3 +48,5 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+extra_javascript:
+  - assets/js/posthog.js
