@@ -50,3 +50,5 @@ markdown_extensions:
   - pymdownx.details
 extra_javascript:
   - assets/javascripts/posthog.js
+  - https://www.googletagmanager.com/gtag/js?id=G-XT28GK2X8V
+  - assets/javascripts/ga.js
