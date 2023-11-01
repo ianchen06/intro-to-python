@@ -49,4 +49,4 @@ markdown_extensions:
   - admonition
   - pymdownx.details
 extra_javascript:
-  - assets/js/posthog.js
+  - assets/javascripts/posthog.js
