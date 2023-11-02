@@ -115,7 +115,19 @@ except ZeroDivisionError:
 >So to answer your question:
 >
 >No, I would not recommend the same for python code. I suggest you read chapter 6 of Python in a nutshell.
-https://stackoverflow.com/questions/1152541/is-it-better-to-use-an-exception-or-a-return-code-in-python
+- https://stackoverflow.com/questions/1152541/is-it-better-to-use-an-exception-or-a-return-code-in-python
+- https://legacy.python.org/dev/peps/pep-3134/
+- https://docs.python.org/3/reference/simple_stmts.html#the-raise-statement
+- https://wiki.python.org/moin/HandlingExceptions
+- https://docs.python.org/3/c-api/exceptions.html
+- https://stackoverflow.com/questions/1313812/raise-exception-vs-return-none-in-functions
+- https://stackoverflow.com/questions/1152541/is-it-better-to-use-an-exception-or-a-return-code-in-python
+- https://stackoverflow.com/questions/23297364/python-throw-exception-or-return-none
+- https://softwareengineering.stackexchange.com/questions/314960/guidelines-for-returning-none-vs-raising-error-for-python-string-validating-fun
+- https://stackoverflow.com/questions/9344163/function-failed-raise-exception-or-return-false-whats-the-better-approach
+- https://www.pythonmorsels.com/how-to-throw-an-exception/
+- https://www.reddit.com/r/learnpython/comments/10nfmhh/returning_false_vs_none/
+- https://www.reddit.com/r/Python/comments/1qrizj/do_your_raise_exceptions_or_return_errors_as_part/
 
 ## Exercises
 
