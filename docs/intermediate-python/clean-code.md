@@ -104,6 +104,19 @@ except ZeroDivisionError:
     result = None
 ```
 
+### 8. Throw Exceptions or Return None
+
+>The best practice is to throw exceptions when an error occurs. If you must return a value, return None instead of a string like "Error".
+>
+>The pythonic thing to do is to raise and handle exceptions. The excellent book "Python in a nutshell" discusses this in 'Error-Checking Strategies' in Chapter 6.
+>
+>The book discusses EAFP ("it's easier to ask forgiveness than permission") vs. LBYL ("look before you leap").
+>
+>So to answer your question:
+>
+>No, I would not recommend the same for python code. I suggest you read chapter 6 of Python in a nutshell.
+https://stackoverflow.com/questions/1152541/is-it-better-to-use-an-exception-or-a-return-code-in-python
+
 ## Exercises
 
 1. **Refactor the Code**: Take the following code and refactor it to be more Pythonic.
