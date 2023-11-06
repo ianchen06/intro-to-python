@@ -56,7 +56,11 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+              - name: mermaid
+                class: mermaid
+                format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - admonition
@@ -65,3 +69,5 @@ extra_javascript:
   - assets/javascripts/posthog.js
   - https://www.googletagmanager.com/gtag/js?id=G-XT28GK2X8V
   - assets/javascripts/ga.js
+plugins:
+  - macros

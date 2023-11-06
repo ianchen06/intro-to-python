@@ -24,5 +24,6 @@ jobs:
       - run: |
           pip install \
           mkdocs-material \
-          mkdocs-awesome-pages-plugin
+          mkdocs-awesome-pages-plugin \
+          mkdocs-macros-plugin
       - run: mkdocs gh-deploy --force
