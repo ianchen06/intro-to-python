@@ -15,7 +15,9 @@ nav:
     - 'Git': './command-line-and-git/git.md'
   - 'Intermediate Python':
     - 'Clean and Pythonic Code': './intermediate-python/clean-code.md'
-    - 'Object Oriented Programming': './intermediate-python/oop.md'
+    - 'Object Oriented Programming':
+      - "Introduction": './intermediate-python/object-oriented-programming/oop.md'
+      - "Class": './intermediate-python/object-oriented-programming/class.md'
   - 'Advanced Python':
     - 'Concurrency': './advanced-python/concurrency.md'
 
